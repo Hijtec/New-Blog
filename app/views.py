@@ -31,7 +31,7 @@ def index():
 
 @app.route("/admin_login", methods=["GET", "POST"])
 def admin_login():
-    admin = {"admin":"Hijtec", "password":"alice"}
+    admin = {"adminname":"Hijtec", "password":"alice"}
     form = LoginForm()
     if form.validate_on_submit():
         flash('Login requested for Administration="%s", remember_me=%s' %
@@ -39,6 +39,7 @@ def admin_login():
         return redirect('/index')
     return render_template("admin_login.html",
                            form=form,
+                           admin=admin
                            title="Administration",
                            providers=app.config["ADMINISTRATION"])
     
