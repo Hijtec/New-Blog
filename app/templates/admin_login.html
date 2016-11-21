@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+    {% for admin in admin %}
+    <h1>Hello {{ admin.adminname }}, please login!</h1>
+    <p>This page is not important ATM.</p>
+    {% endfor %}
+{% endblock %}
