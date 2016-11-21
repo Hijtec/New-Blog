@@ -1,1 +1,1 @@
-web: python run_debug_true.py runserver 0.0.0.0:$PORT
+web: gunicorn app:app
