@@ -1,5 +1,25 @@
 from app import app
-from flask import render_template
+from flask import render_template, flash, redirect, Response
+from .forms import LoginForm
+from functools import wraps
+
+@app.check_auth
+def check_auth(username,password):
+    return username == "admin" and password == "alice"
+
+def authenticate():
+    return Response('Could not verify your access level for that URL.\n'
+    'You have to login with proper credentials', 401,
+    {'WWW-Authenticate': 'Basic realm="Login Required"'})
+    
+def requires_auth(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        auth = request.authorization
+        if not auth or not check_auth(auth.username, auth.password):
+            return authenticate()
+        return f(*args, **kwargs)
+    return decorated
 
 @app.route("/")
 @app.route("/index")
@@ -9,13 +29,18 @@ def index():
                            title="My blog",
                            posts=posts,
                            activenav1="active")
-@app.route("/admin_login")
 
+@app.route("/admin_login", methods=["GET", "POST"])
 def admin_login():
-    admin=[{"adminname":"Hijtec", "password":"Alice"}]
+    form = LoginForm()
+    if form.validate_on_submit():
+        flash('Login requested for Administration="%s", remember_me=%s' %
+              (form.credentials.data, str(form.remember_me.data)))
+    return redirect('/index')
     return render_template("admin_login.html",
-                           admin=admin,
-                           title="Administration")
+                           form=form,
+                           title="Administration",
+                           providers=app.config["ADMINISTRATION"])
     
 @app.route("/about")
 def about():
@@ -34,3 +59,10 @@ def contacts():
                   }]
     return render_template("contacts.html",
                            information=information)
+    
+@app.route("/administration")
+@requires_auth
+def administration():
+    return render_template("/administration.html",
+                           )
+    
