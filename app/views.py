@@ -35,7 +35,7 @@ def admin_login():
     if form.validate_on_submit():
         flash('Login requested for Administration="%s", remember_me=%s' %
               (form.credentials.data, str(form.remember_me.data)))
-    return redirect('/index')
+        return redirect('/index')
     return render_template("admin_login.html",
                            form=form,
                            title="Administration",
@@ -63,5 +63,5 @@ def contacts():
 @requires_auth
 def administration():
     return render_template("/administration.html",
-                           )
+                           title="Administration")
     
