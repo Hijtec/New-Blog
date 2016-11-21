@@ -39,7 +39,7 @@ def admin_login():
         return redirect('/index')
     return render_template("admin_login.html",
                            form=form,
-                           admin=admin
+                           admin=admin,
                            title="Administration",
                            providers=app.config["ADMINISTRATION"])
     
