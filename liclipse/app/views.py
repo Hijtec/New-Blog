@@ -3,7 +3,6 @@ from flask import render_template, flash, redirect, Response
 from .forms import LoginForm
 from functools import wraps
 
-@app.check_auth
 def check_auth(username,password):
     return username == "admin" and password == "alice"
 
