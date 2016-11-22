@@ -52,7 +52,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li>
                         <a href="/admin_login">
-                            <button type="button" class="btn btn-default btn-fab btn-fab-mini btn-round" aria-label="Administration"  
+                            <button type="button" class="btn btn-default btn-fab btn-fab-mini btn-round" aria-label="/admin_login"  
                                 <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
                             </button>
                         </a>
@@ -62,13 +62,19 @@
             </div>
         </div>
     </nav>
-
-    <div class="wrapper">
-        <div class="header">
-    
-        </div>
-        <div class="main">
-            <div class="container">
+    <div class="header">
+            <p>contentcontentcontent</p>
+    </div>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span2">
+                <p>content
+                content
+                content
+                menu</p>
+            </div>
+            <div class="span10">
+                <div class="container">
                 <hr>
                 {% with messages = get_flashed_messages() %}
                   {% if messages %}
@@ -80,12 +86,10 @@
                   {% endif %}
                 {% endwith %}
                 {% block content %}{% endblock %}
-                
+                </div>
             </div>
         </div>
     </div>
-
-
 </body>
 
     <!--   Core JS Files   -->
