@@ -1,5 +1,5 @@
 from app import app
-from flask import render_template, flash, redirect, Response
+from flask import render_template, flash, redirect, Response, request, Flask
 from .forms import LoginForm
 from functools import wraps
 
@@ -33,15 +33,10 @@ def index():
 def admin_login():
     admin = {"adminname":"Hijtec", "password":"alice"}
     form = LoginForm()
-    if form.validate_on_submit():
-        flash('Login requested for Administration="%s", remember_me=%s' %
-              (form.credentials.data, str(form.remember_me.data)))
-        return redirect('/index')
     return render_template("admin_login.html",
                            form=form,
                            admin=admin,
-                           title="Administration",
-                           providers=app.config["ADMINISTRATION"])
+                           title="Administration",)
     
 @app.route("/about")
 def about():
@@ -50,7 +45,8 @@ def about():
                   "telephone":"number", "email":"emailadress",
                   }]
     return render_template("about.html",
-                           information=information)
+                           information=information,
+                           activenav2="active")
     
 @app.route("/contacts")
 def contacts():
@@ -59,7 +55,8 @@ def contacts():
                   "telephone":"number", "email":"emailadress",
                   }]
     return render_template("contacts.html",
-                           information=information)
+                           information=information,
+                           activenav3="active")
     
 @app.route("/administration")
 @requires_auth
