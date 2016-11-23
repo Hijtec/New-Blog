@@ -67,7 +67,7 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="span2">
+            <div class="col-md3" id="leftCol">
                 <ul class="nav nav-pills nav-stacked  nav-pills-success" id="sidebar">
                   <li><a href="#sec0">Section 0</a></li>
                   <li><a href="#sec1">Section 1</a></li>
@@ -76,7 +76,7 @@
                   <li><a href="#sec4">Section 4</a></li>
                 </ul>
             </div>
-            <div class="span10">
+            <div class="col-md-9">
                 <div class="container">
                 <hr>
                 {% with messages = get_flashed_messages() %}
