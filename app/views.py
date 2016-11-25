@@ -38,6 +38,13 @@ def admin_login():
                            admin=admin,
                            title="Administration",)
     
+@app.route("/news")
+def about():
+    title="Version 1"
+    return render_template("news.html",
+                           title=title,
+                           activenav1="active")
+    
 @app.route("/about")
 def about():
     information=[{"owner":"Hijtec", 
@@ -46,6 +53,7 @@ def about():
                   }]
     return render_template("about.html",
                            information=information,
+                           title="My blog",
                            activenav2="active")
     
 @app.route("/contacts")
@@ -56,6 +64,7 @@ def contacts():
                   }]
     return render_template("contacts.html",
                            information=information,
+                           title="My blog",
                            activenav3="active")
     
 @app.route("/administration")
