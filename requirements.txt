@@ -8,6 +8,8 @@ Flask-SQLAlchemy==2.0
 Flask-WTF==0.10.2
 Flask-WhooshAlchemy==0.56
 Jinja2==2.7.3
+jQuery==3.1.1
+jQuery.hotkeys==0.2.0
 MarkupSafe==0.23
 SQLAlchemy==0.9.7
 Tempita==0.5.2
