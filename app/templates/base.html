@@ -61,22 +61,26 @@
             </div>
         </div>
     </nav>
-    <div class="container">
-        <div class="row">
-          <!--left-->
-          <nav class="col-md-3" id="myScrollspy">
-            <ul class="nav nav-stacked">
-              <li><a href="#sec0">Section 0</a></li>
-              <li><a href="#sec1">Section 1</a></li>
-              <li><a href="#sec2">Section 2</a></li>
-              <li><a href="#sec3">Section 3</a></li>
-              <li><a href="#sec4">Section 4</a></li>
-            </ul>
-          </nav><!--/left-->
-          <!--right-->
-          <div class="col-md-9">
-            {% block content %}{% endblock %}
-          </div>
+    <div class="wrapper">
+        <div class="header header-filter" style="background-image: url("static/img/city.jpg");">
+        </div>
+        <div class="container">
+            <div class="row">
+              <!--left-->
+              <nav class="col-md-3" id="myScrollspy">
+                <ul class="nav nav-stacked">
+                  <li><a href="#sec0">Section 0</a></li>
+                  <li><a href="#sec1">Section 1</a></li>
+                  <li><a href="#sec2">Section 2</a></li>
+                  <li><a href="#sec3">Section 3</a></li>
+                  <li><a href="#sec4">Section 4</a></li>
+                </ul>
+              </nav><!--/left-->
+              <!--right-->
+              <div class="col-md-9">
+                {% block content %}{% endblock %}
+              </div>
+            </div>
         </div>
     </div>
 </body>
