@@ -47,12 +47,7 @@ def about():
     
 @app.route("/about")
 def about():
-    information=[{"owner":"Hijtec", 
-                  "name":"Martin", "lastname":"Černil", 
-                  "telephone":"number", "email":"emailadress",
-                  }]
     return render_template("about.html",
-                           information=information,
                            title="My blog",
                            activenav2="active")
     
