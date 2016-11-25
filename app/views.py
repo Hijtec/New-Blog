@@ -39,7 +39,7 @@ def admin_login():
                            title="Administration",)
     
 @app.route("/news")
-def about():
+def news():
     title="Version 1"
     return render_template("news.html",
                            title=title,
