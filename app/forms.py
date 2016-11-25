@@ -3,5 +3,5 @@ from wtforms import StringField, BooleanField
 from wtforms.validators import DataRequired
 
 class LoginForm(Form):
-    credentials = StringField("login", validators=[DataRequired()])
-    remember_me = BooleanField("remember_me", default=False)
+    nickname = StringField("login", validators=[DataRequired()])
+    password = StringField("password", validators=[DataRequired()])
