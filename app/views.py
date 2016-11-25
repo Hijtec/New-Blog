@@ -28,18 +28,6 @@ def index():
                            title="My blog",
                            posts=posts,
                            activenav1="active")
-
-@app.route("/admin_login", methods=["GET", "POST"])
-def admin_login():
-    admin = {"adminname":"Hijtec", "password":"alice"}
-    form = LoginForm()
-    if check_auth(form.username, form.password):
-        auth.username=form.username
-        auth.password=form.password
-    return render_template("admin_login.html",
-                           form=form,
-                           admin=admin,
-                           title="Administration",)
     
 @app.route("/news")
 def news():
