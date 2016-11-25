@@ -20,7 +20,7 @@
     <link href="static/css/material-kit.css" rel="stylesheet"/>
 </head>
 
-<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+<body>
     <nav class="navbar navbar-success navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -68,7 +68,7 @@
         <div class="container">
             <div class="row">
               <!--left-->
-              <nav class="col-md-3" id="myScrollspy">
+              <nav class="col-md-2" data-spy="affix" data-offset-top="340">
                 <ul class="nav nav-stacked">
                   <li><a href="#sec0">Section 0</a></li>
                   <li><a href="#sec1">Section 1</a></li>
@@ -78,7 +78,7 @@
                 </ul>
               </nav><!--/left-->
               <!--right-->
-              <div class="col-md-9">
+              <div class="col-md-8 col-md-offset-1">
                 {% block content %}{% endblock %}
               </div>
             </div>
