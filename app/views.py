@@ -4,7 +4,7 @@ from .forms import LoginForm
 from functools import wraps
 
 def check_auth(username,password):
-    return username == "admin" and password == "alice"
+    return username == "Hijtec" and password == "alice"
 
 def authenticate():
     return Response('Could not verify your access level for that URL.\n'
