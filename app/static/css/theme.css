@@ -16,3 +16,4 @@ body {
 .theme-showcase .navbar .container {
   width: auto;
 }
+#editor {overflow:scroll; max-height:300px}
