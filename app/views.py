@@ -59,10 +59,7 @@ def administration():
     return render_template("/administration.html",
                            title="Administration")
 @app.route("/editor")
-def index():
-    posts=[{"author":"Hijtec", "body":"A first post"}]
+def editor():
     return render_template("editor.html",
-                           title="My blog",
-                           posts=posts,
-                           activenav1="active")
+                           title="My blog")
     
