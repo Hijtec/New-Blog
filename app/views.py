@@ -66,6 +66,6 @@ def editor():
 
 @app.route("/unlimitedmemory")
 def unlimitedmemory():
-    return render_template("unlimitedmemory.html",
+    return render_template("articles/unlimitedmemory.html",
                            title="Unlimited Memory")
     
