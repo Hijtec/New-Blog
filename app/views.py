@@ -58,8 +58,14 @@ def contacts():
 def administration():
     return render_template("/administration.html",
                            title="Administration")
+    
 @app.route("/editor")
 def editor():
     return render_template("editor.html",
                            title="My blog")
+
+@app.route("/unlimitedmemory")
+def unlimitedmemory():
+    return render_template("unlimitedmemory.html",
+                           title="Unlimited Memory")
     
