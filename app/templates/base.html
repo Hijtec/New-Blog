@@ -62,29 +62,28 @@
     <div class="wrapper">
         <div class="main main-raised">
             <div class="section">
-        <div class="container-fluid">
-            <div class="row-fluid">
-              <!--left-->
-              <div class="col-md-2">
-              <div class="fixed-section" data-spy="affix" data-offset-top="140">
-                <ul class="nav nav-stacked">
-                  <li><a href="#sec0">test text</a></li>
-                  <li><a href="#sec1">Section 1</a></li>
-                  <li><a href="#sec2">Section 2</a></li>
-                  <li><a href="#sec3">Section 3</a></li>
-                  
-                                   <li><a href="#sec-conclusion">Section 4</a></li>
-                </ul>
-              </div>
-              </div>
-              <!--/left-->
-              <!--right-->
-              <div class="col-md-8 col-md-offset-1">
-                {% block content %}{% endblock %}
-              </div>
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                      <!--left-->
+                      <div class="col-md-2">
+                          <div class="fixed-section" data-spy="affix" data-offset-top="140">
+                            <ul class="nav nav-stacked hidden-xs hidden-sm">
+                              <li><a href="#sec0">test text</a></li>
+                              <li><a href="#sec1">Section 1</a></li>
+                              <li><a href="#sec2">Section 2</a></li>
+                              <li><a href="#sec3">Section 3</a></li>
+                              <li><a href="#sec-conclusion">Section 4</a></li>
+                            </ul>
+                          </div>
+                      </div>
+                      <!--/left-->
+                      <!--right-->
+                      <div class="col-md-8 col-md-offset-1">
+                      {% block content %}{% endblock %}
+                      </div>
+                    </div>
+                </div>
             </div>
-            </div>
-        </div>
         </div>
     </div>
 </body>
