@@ -10,13 +10,9 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin-top: 40px;
+  margin: 0;
 }
 article,
-fixer {
-    padding-top: 60px;
-    margin-top: -40px;
-},
 aside,
 details,
 figcaption,
@@ -24,6 +20,7 @@ figure,
 footer,
 header,
 hgroup,
+navbar-hijtec {height: 40px;}
 main,
 menu,
 nav,
