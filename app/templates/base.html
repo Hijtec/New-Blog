@@ -25,7 +25,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-success navbar-fixed-top navbar-hijtec" role="navigation">
+    <nav class="navbar navbar-success navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-doc">
@@ -62,20 +62,22 @@
     <div class="wrapper">
         <div class="header header-filter" style="background-image: url('https://images.unsplash.com/photo-1423655156442-ccc11daa4e99?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450');">
         </div>
-        <div class="main main-raised">
+        <div class="main main-raised" data-spy="scroll" data-target=#myScrollspy">
             <div class="section">
                 <div class="container-fluid">
                     <div class="row-fluid">
                       <!--left-->
                       <div class="col-md-2">
-                          <div class="fixed-section" data-spy="affix" data-offset-top="100">
-                            <ul class="nav nav-stacked hidden-xs hidden-sm">
+                          <div class="fixed-section" >
+                          <nav id="myScrollspy">
+                            <ul class="nav nav-stacked nav-pills hidden-xs hidden-sm" data-spy="affix" data-offset-top="100">
                               <li><a href="#sec0">test text</a></li>
                               <li><a href="#sec1">Section 1</a></li>
                               <li><a href="#sec2">Section 2</a></li>
                               <li><a href="#sec3">Section 3</a></li>
                               <li class="fixer"><a href="#sec-conclusion">Section 4</a></li>
                             </ul>
+                          </nav>  
                           </div>
                       </div>
                       <!--/left-->
