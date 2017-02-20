@@ -24,7 +24,7 @@
     
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#myScrollspy">
     <nav class="navbar navbar-success navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -82,7 +82,7 @@
                       </div>
                       <!--/left-->
                       <!--right-->
-                      <div class="col-md-8 col-md-offset-1" data-spy="scroll" data-target="#myScrollspy">
+                      <div class="col-md-8 col-md-offset-1" >
                       {% block content %}{% endblock %}
                       </div>
                     </div>
