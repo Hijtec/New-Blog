@@ -76,3 +76,9 @@ def artofbanter():
                            topics=["How to learn stuff", "Banter", "Základy", "Techniky", "Komunikace"],
                            title="Unlimited Memory")
     
+@app.route("/advancedprocrastinationhacks")
+def advancedprocrastinationhacks():
+    return render_template("articles/APH.html",
+                           topics=["How to learn stuff", "Procrastination", "Základy", "Techniky", "Productivity"],
+                           title="Advanced Procrastination Hacks")
+    
