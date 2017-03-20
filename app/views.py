@@ -69,4 +69,10 @@ def unlimitedmemory():
     return render_template("articles/unlimitedmemory.html",
                            topics=["How to learn stuff", "Koncentrace", "Základy", "Techniky"],
                            title="Unlimited Memory")
+
+@app.route("/artofbanter")
+def artofbanter():
+    return render_template("articles/artofbanter.html",
+                           topics=["How to learn stuff", "Banter", "Základy", "Techniky", "Komunikace"],
+                           title="Unlimited Memory")
     
