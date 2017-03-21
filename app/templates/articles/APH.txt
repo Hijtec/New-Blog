@@ -1,8 +1,29 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {% extends "base.html" %}
 {% block content %}
 ///17 Anti-Procrastination Hacks
 
-Problém prokrastinace není novodobým výmyslem. Je příčinou frustrace, může nás zastavit než dosáhneme svých cílů, propůjčuje nám stres, úzkost,vinu, sebeopovržení. Především nás brzdí před dosažením našeho plného potenciálu.
+Problém prokrastinace není novodobým výmyslem. Je příčinou frustrace, může nás zastavit než dosáhneme svých cílů, propůjčuje nám stres, úzkost, vinu, sebeopovržení. Především nás brzdí před dosažením našeho plného potenciálu.
 Naštěstí existují metody jak s prokrastinací bojovat, a tento článek vás s těmito metodami a technikami seznámí.
 
 ///1. Proč inteligentí lidé prokrastinují
@@ -27,8 +48,8 @@ Stáváme se tím nad čím přemýšlíme. Where you focus goes, your energy fl
 ///4. To-Do List: znovu a lépe
 Většina úkolů, které si lidé píší do diářů dělá již automaticky vaší mysli peklo na zemi.
 Napíší si věci jako "Vyřídit daně" nebo "Měsíční zpráva". Jak učinit váš diář lahodným vaší mysli?
-Uvědomte si, že v úkolníčcích se vyskytují věci, které vás buď přitahují (posezení s přáteli) nebo odpuzují (formuláře, povinnosti). Úlohy učiníte zajímavějšími tak, že je přetvoříte na akční a rázné. Místo "Psát diplomku" si zapište "Napsat odstavec o ...". Přece musíte uznát, že druhá varianta je přívětivější.
-Eliminujte prokrastinaci soustředěním se pouze na malé úlohy, na vaši další akci. Učiňte je jednoduchými, snadnými a akčními. Opakujte a zjistíte, že získate touženou setrvačnost.
+Uvědomte si, že v úkolníčcích se vyskytují věci, které vás buď přitahují (posezení s přáteli) nebo odpuzují (formuláře, povinnosti). Úlohy učiníte zajímavějšími tak, že je přetvoříte na akční a rázné. Místo "Psát diplomku" si zapište "Napsat odstavec o ...". Přece musíte uznat, že druhá varianta je přívětivější.
+Eliminujte prokrastinaci soustředěním se pouze na malé úlohy, na vaši další akci. Učiňte je jednoduchými, snadnými a akčními. Opakujte a zjistíte, že získáte touženou setrvačnost.
 
 ///5. Dvouminutové Pravidlo
 V průběhu dní se často vyhýbáme malým úkonům, jako je například umýt nádobí, odpovídat na emaily, prát aj. Nejlépe na víkend se nám tyto věci nakupí a chce to hodně snahy všechno dohnat. Nikdo nechce strávit víkend praním a žehlením nasbíraného prádla za měsíc, a tedy zase prokrastinujeme.
@@ -38,11 +59,11 @@ Jakmile budete používat toto pravidlo delší dobu, zjistíte, že stíháte. 
 Pokud chcete jíst zdravě, vemte si ovoce a snězte jej, zabere to méně jak 2 minuty. Udělejte tak každý den a přistihnete se že nahrazujete sodu za vodu a k jídlu si uděláte jako přílohu salát, sladkosti nahradíte ovocem. Podobně pokud chcete si navyknout denně číst, přečtěte si první stranu knihy. V rámci setrvačnosti si ani neuvědomíte, že máte celou kapitolu za sebou. Co třeba běhání? Není problém. Nasaďte si běžecké boty a jděte před dveře - to by vám mělo zabrat méně jak 2 minuty - no a když už tam jste, setrvačností si dáte 20 minut běhu a ještě si přidáte 30 dřepů.
 Prokrastinace je téměř vždy vyřešena, když učiníte první krok. Největší překážkou je začít, tak proč si to nezjednodušit!?
 A journey of thousand miles must begin with a single step.
-Udělejte jeden klik, umyjte si jeden zub, snězte jedno jablko, napište prvních 5 slov článku. Jakmile začnete, jedno jak malá nebo nevýznamná akce se to zdála, "rozjedete" se. Jedna věc vede k druhé, nabydete setrvačnosti. Naschle prokrastinace. Ale ona se zase vrátí! Jakmile tak nastane, znovu užijte dvouminutové pravidlo, restartujte, jeďte znovu. V začátcích však toto berte s rezervou, mohli by jste dostat šok :D.
+Udělejte jeden klik, umyjte si jeden zub, snězte jedno jablko, napište prvních 5 slov článku. Jakmile začnete, jedno jak malá nebo nevýznamná akce se to zdála, "rozjedete" se. Jedna věc vede k druhé, nabudete setrvačnosti. Naschle prokrastinace. Ale ona se zase vrátí! Jakmile tak nastane, znovu užijte dvouminutové pravidlo, restartujte, jeďte znovu. V začátcích však toto berte s rezervou, mohli by jste dostat šok :D.
 Udělejte jeden krok. Ten první, nejdůležitější. To je to, na čem záleží.
 
 ///6. Velké Cíle a Malé Kvóty
-Máte velké sny? Co pro ně děláte? Očekáváte, že jednou k nim sednete a splňíte je?
+Máte velké sny? Co pro ně děláte? Očekáváte, že jednou k nim sednete a splníte je?
 Lepším přístupem jsou velké cíle a malé kvóty. Ukážeme si to na příkladu spisovatele.
 Chcete být populárním spisovatelem, který vydá alespoň 2 úspěšné knihy ročně. Toto je váš cíl, zdánlivě strašlivý a neuskutečnitelný. Každý den však budete psát 30 minut rozdělenou na 15ti minutové úseky. S tímto přístupem dostane každých 15 minut motivující pocit úspěchu. Né měsíce, kdy už bude mít konečně dopsáno. Malé indikátory úspěchu, které vedou k vašim cílům vás donutí dělat více a více. Opět získáte setrvačnost a budete mít větší šanci dokončit váš úkol.
 Zadruhé, tyto malé úspěchy vás budou popohánět a rychle se převedou do povědomí, že dneska jste byli šikovní a produktivní.
@@ -53,22 +74,22 @@ Pokud se jedná o velké projekty, toto je nejlepší přístup ukázat prokrast
 Pokud si přesně nenaplánujete aktivitu, prokrastinace se stává jednoduchou.
 Zaprvé, rozhodněte se, co konkrétně musíte udělat. (Aktivita typu dělat věci do školy je špatná)
 Zadruhé, vyčleňte si čas (adekvátně malý), místo a přemýšlejte jak přesně danou aktivitu budete dělat.
-Zatřetí, eliminujte vše ostatní. Mobil do režimu letadla, zablokujte určité stránky skrz aplikace, odstraňte rušivé elementy. Pokud můžete, odbojte internet, vypněte televizi. Během práce na počítači je nutkání k prokrastinaci obzvláště jednoduché. Jakmile se úkol zdá nudným či obtížným, prokrastinování je jen záložku vedle. Učiňte tuto možnost obtížnou.
-Pokud opravdu potřebujete používat internet, já osobně používám Go Fucking Work, díky kterému si zablokujete prokrastinující stránky, a dále Rescue Time, jenž zaznaménáva dobu, kteroujste strávili na různých stránkách a v programech.
+Zatřetí, eliminujte vše ostatní. Mobil do režimu letadla, zablokujte určité stránky skrz aplikace, odstraňte rušivé elementy. Pokud můžete, odpojte internet, vypněte televizi. Během práce na počítači je nutkání k prokrastinaci obzvláště jednoduché. Jakmile se úkol zdá nudným či obtížným, prokrastinování je jen záložku vedle. Učiňte tuto možnost obtížnou.
+Pokud opravdu potřebujete používat internet, já osobně používám Go Fucking Work, díky kterému si zablokujete prokrastinující stránky, a dále Rescue Time zaznamenává dobu, kterou jste strávili na různých stránkách a v programech.
 Pointa je takováto: Abyste opravdu překonali prokrastinaci a něco dělali, musíte se opravdu k tomu zavázat. Vyberte si čas a místo, odstraňte rušivé elementy a nedejte si šanci dělat něco jiného než to co právě musíte.
 
 ///8. Metoda Zadek v Křesle
-Obzvláště mezi spisovateli knih je tato 100 % efektivní anti-prokrastinační strategie populární. Spočívá v tom, že si vymezíte časový úsek pro práci a sednete si do křesla. Bez jakéhokoliv vyrušení, bez ničeho. Vše dáte pryč nebo vypnete, kromě toho, co máte dělat. Mohli by jste tam jen tak sedět a nedělat nic, avšak stejně nakonec začnete psát. Pak nastene setrvačnost a opět vás to přestane bavit. Chvíli nic neděláte a pak vám to nedá a zase začnete. Téměř vždy po konci vašeho časového úseku budete mít pár stránek napsaných.
+Obzvláště mezi spisovateli knih je tato 100 % efektivní anti-prokrastinační strategie populární. Spočívá v tom, že si vymezíte časový úsek pro práci a sednete si do křesla. Bez jakéhokoliv vyrušení, bez ničeho. Vše dáte pryč nebo vypnete, kromě toho, co máte dělat. Mohli by jste tam jen tak sedět a nedělat nic, avšak stejně nakonec začnete psát. Pak nastane setrvačnost a opět vás to přestane bavit. Chvíli nic neděláte a pak vám to nedá a zase začnete. Téměř vždy po konci vašeho časového úseku budete mít pár stránek napsaných.
 Nejste spisovateli? Nevadí. To že se zavážete k bloku nevyrušeného času pro práci na specifickém úkolu je jeden z nejefektivnějších anti-prokrastinačních prostředků.
-Podobný stav navodí i let letadlem. Jelikož vás nic neotravuje a nemáte se čím zabavít, a tak začnete pracovat. Tetno stav si můžete imaginárně navodit při dovolené. Všechny vymoženosti vypněte, a nedejte si možnost dělat něco jiného než to, co máte.
+Podobný stav navodí i let letadlem. Jelikož vás nic neotravuje a nemáte se čím zabavit, a tak začnete pracovat. Tento stav si můžete imaginárně navodit při dovolené. Všechny vymoženosti vypněte, a nedejte si možnost dělat něco jiného než to, co máte.
 
 ///9. Vytvořte si To-Do List Rozptylování
-Jakmile se začneme rozptylovat, průměrně trva 25 minut než se vrátíme k naší předešlé práci a ještě k tomu dalších 25 minut abychom získali podobné soustředění, které jsme měli před rozptýlením.
-Naštěstí existuje řešení. Jakmile vás něco napadne co byste chtěli zjistit nebo čím se rozptálit, zapište si to na papír a hned se vraťte k předešlé úloze. Později, až budete mít všechny důležité úkoly splněny se k tomuto papíru vraťte a plně se mu věnujte.
+Jakmile se začneme rozptylovat, průměrně trvá 25 minut než se vrátíme k naší předešlé práci a ještě k tomu dalších 25 minut abychom získali podobné soustředění, které jsme měli před rozptýlením.
+Naštěstí existuje řešení. Jakmile vás něco napadne co byste chtěli zjistit nebo čím se rozptýlit, zapište si to na papír a hned se vraťte k předešlé úloze. Později, až budete mít všechny důležité úkoly splněny se k tomuto papíru vraťte a plně se mu věnujte.
 
 ///10. Metoda (10+2)*5
 Pokud jste Master Prokrastinátor a nejste si jisti jestli jste připraveni na dlouhé časové bloky či jste neschopni použít metodu zadku v křesle, tohle bude přesně pro vás.
-Potřebujete: Úkolníček, Časovač (i internerový)
+Potřebujete: Úkolníček, Časovač (i internetový)
 Jak to funguje: Sednete si, nastavíte časovač na 10 minut a pracujete bez rozptýlení dokud čas nevyprší. Během 10 minut dělejte jen zadanou práci, nic jiného. Je to přece jen 10 minut. Následně máte 2 minuty na to dělat co chcete (nejlépe vstaňte a změňte aktivitu). Přesně 2 minuty. Čas vypršel, připravte se na dalších 10 minut práce. Opakujte.
 Co ale to *5? Měli by jste tento cyklus 5x opakovat, aby jste docílili 60 minut práce a krátkých přestávek.
 Pointou je učinit prokrastinaci méně lákavou. Jenom 10 minut, jednoduché. Navíc tyto chaotické změny ve vás vyvolají to, že se budete těšit na pauzy i na práci!
@@ -82,5 +103,56 @@ Vytvořte si vlastní na www.stickk.com. Vsaďte si na sebe, donuťte se pracova
 ///12. Zastřelte svého vnitřního Perfekcionistu
 Nejvýznamnější příčinou prokrastinace je "paralýza z analýzy" aneb bytí perfekcionistou.
 Neustále se učíme, získáváme zkušenosti a zlepšujeme se. Nikdy však nejsme perfektní. Splněné je lepší než perfektní. Obrazy Leonarda da Vinci jsou nedokončené. Přesto se však rozhodl že udělat něco je lepší než nic. Začněte a neohlížejte se, časem se zlepšíte a možná se k prefektnímu přiblížíte, ovšem z patra? Zapomeňte.
+You can´t edit a blank page.
 
+///13. Jak produktivně prokrastinovat
+Někdy si nemůžeme pomoct a prokrastinujeme, nezáleží na tom jak moc nechceme. Můžeme být unavení nebo cokoliv jiného, každopádně tomuto stavu se nevyhnete.
+Řešení je nasnadě. Dělejte věci jež jsou jednodušší, ale stále produktivní. Tato metoda je známá jako metoda přesměrování. Místo rozplácnutí se před televizí a sledování filmu udělejte malé úkony, které stejně musíte udělat, zavolat rodině či známým, objednat se k zubaři/holiči, odpovědět na e-maily, udělat si průzkum či rešerši. Vraťte se k více produktivním činnostem jakmile se budete cítit připraveni.
+
+///14. Vizualizace, která vede k prokrastinaci (a která ne)
+Ať si to uvědomujem či ne, každý z nás si v hlavě přehrává obraz úspěchů a neúspěchů. Vizualizace našich snů by nám měla pomoct, ne škodit. Avšak co budete dělat jakmile dosáhnete svého snu? Asi nejčastěji se budete cítit uvolněný, sproštěn těžkého břímě vaší cesty k úspěchu. Konečně si můžete oddechnout.
+Přesně to samé se děje když si představíme úspěch. Místo toho abychom byli motivování dělat něco pro svůj sen, oklameme naše podvědomí tak, že si myslí, že již jsme splnili naše sny.
+Největší ironií je, že čím více si představujeme úspěch našeho snu, tím menší je pravděpodobnost že jej dosáhneme. Pozitivní vizualizace je kontraproduktivní a činí vás letargickými.
+Řešení: Vykašlete se na výsledek a zaměřte se na proces. Místo vizualizace skvělé práce si představte jak posíláte plno a plno životopisů, chodíte na pohovory atp.
+
+///15 Slovo jenž zabíjí prokrastinaci
+Dalším faktorem, jenž může způsobit prokrastinaci je naše sebehodnocení. Mluvení k sobě samému má obrovský dopad na naše chování a zda-li něco děláme.
+Nahraďte nemůžu za nechci či jednoduché ne. Místo nemůžu pít alkohol - Nepiju alkohol. Nemůžu bulat posilovnu - Nebulám posilovnu. Nejím nezdravé jídla.
+Když použijete nemůžu, automaticky se zdá že to o čem mluvíte by jste hrozně rádi dělali ale odepíráte si to. Používáním "Ne" všepujete své mysli že nejste ten typ co by flákal posilovnu nebo jedl nezdravé jídla. Zadruhé, nepoužívejte "Nechci", přece jen je v tomto slově "chci" stejně jako v nemůžu můžu.
+Nepřesvědčeni? Zde jsou data z výzkumu:
+Vědci rozdělili lidi na dvě skupiny, jedna negovala, druhá nemohla. Nakonci nabídli obou skupinám ovesnou a čokoládovou tyčinku jako odměnu za jejich účast. Negující skupina byla skoro o polovinu (64% oproti 39%) úspěšnější v odmítnutí čokoládové tyčinky než ti, kteří říkali že nezdravé jídla nemohou.
+Navíc, u lidí kteří pracovali vstříc nějakému cíli, který se týkal zdraví a fitness, objevili, že ti jenž používají "nemůžu" oproti "Ne" měli 8x větší pravděpodobnost se špatně rozhodnout (vynechat fitko, jíst nezdravě). 8 z 10 lidí používající negaci se těmto pokušením dokázalo ubránit. Z těch co používali "nemůžu" odolalo jen 1 z 10 lidí.
+Až se tedy příště přistihnete, že si říkate že to nemůžete, nahraďte toto slovo negací.
+
+///17. Jak hravě a rychle používat Outsourcing
+No, outsourcing se moc nezdá jako řešení prokrastinace, a taky že není. Vaši nezáživnou práci udělá někdo jiný. Není to řešení, ale určitě možnost hodná zvážení.
+Když se střetáváme s nudnými, zlouhavými a nezáživnými, vyčerpávajícími a repetitivními činnostmi, nutkání k prokrastinaci se přikrade ke každému z nás. Toto nejsou činnosti, na které by jste měli vynaložit svou vůli a mentální energii, pokud máte více důležité a produktivní aktivity. Pak je mnohdy nejlepší volbou outsourcing.
+Pro neznalé: Outsourcing je univerzální služba, kde zadáte svou úlohu a někdo jiný než vy ji za úplatu splní.
+Dvě dobré stránky na to začít s outsourcingem jsou Upwork (https://upwork.com) a Fiverr (https://fiverr.com).
+V Upworku hledáte přímo lidi, kterým daný problém svěříte nebo přímo si pronajmete asistenty. Fiverr funguje jinak, a to tím způsobem, že platíte přímo vámi vybranou úlohu, kterou někdo udělá.
+
+///18. Shrnutí a Závěr
+"The best way to get something done is to begin."
+Nějaký motivující závěr by asi přišel nazmar, přece jen to důležité je výše. Tak tedy shrnutí:
+
+1.  Přestaňte nad vším tolik přemýšlet. Prostě bez přemýšlení jako robot začněte.
+2.  Myslete pouze jen na další malý krok na vaší cestě a budete se divit, kolik ujdete mil.
+3.  Využijte těchto malých kroků pro vybudování setrvačnosti. Nic vás neučiní úspěšnějším tak jako úspěch.
+4.  Svůj To-Do list učiňte akčnějším a jednodušším na vykonání. Nejlépe by akce měly začínat 2 minutovou akcí.
+5.  Dvouminutové pravidlo. Pokud něco dokážete udělat do 2 minut, udělejte to hned. Jinak se nasbírají.
+6.  Rozdělte velké cíle na malinkaté úkolky. Je dobré mít velké sny, ale vytvořte si menší cíle, které k němu vedou.
+7.  Napište si přesně kdy, kde a co budete dělat. Tím že se k tomu závážete máte o hodně větší šanci tuto akci splnit.
+8.  Sedněte si do židle a nevstaňte hodinu. Nebo dvě. Bez rozptylování. Radši budete pracovat než hodinu bezcílně sedět.
+9.  Představte si, že letíte letadlem. Všechny přístroje vypnout, sedět v židli. Uvidíte, že radši budete pracovat.
+10. Udělejte si seznam "rozptylovačů" během práce. Až dopracujte, bez ostychu si jej v klidu projděte.
+11. 10 minut práce + 2 minuty pauza. Zopakujte 5x a hodina práce je na světě. Pauzy vyeliminujte jakmile nejsou potřebné.
+12. Dejte si ultimátum/uzavíračku. Použijte pro to stickk.com, budete radši pracovat než tratit peníze.
+13. Udělané je lepší než perfektní. 1 > 0. Prázdnou stránku nezeditujete, perfekci odložte stranou. Udělejte co můžete.
+14. Začněte prokrastinovat produktivně, když už se necítíte na práci. Dělejte méně náročné činnosti.
+15. Vizualizujte si proces, ne výsledek. Představte si jak tvrdě makáte aby jste měli soukromé letadlo, ne jak v něm letíte.
+16. Nikdy si sobě neříkejte že něco nemůžete dělat. Nejím nezdravé jídlo. Nemeškám. Zdvojnásobujte své šance na úspěch.
+17. Pro nezáživné, podřadné a nudné činnosti zabírající mnoho času užijte Outsourcing nebo je delegujte někomu jinému.
+
+Uložte si tuto stránku, když se přistihnete, že se nedokážete k něčemu "dokopat", přečtěte si opět shrnutí a snad vaše cesta bude méně trnitá.
+To že jste dočetli až sem znamená, že ve vás je to co potřebujete k překonání prokrastinace. Teď tedy zavřete záložku s mým blogem a začnete!
 {% endblock %}
