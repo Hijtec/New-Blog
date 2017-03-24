@@ -59,17 +59,13 @@ def contacts():
 def administration():
     return render_template("/administration.html",
                            title="Administration")
-    
-@app.route("/editor")
-def editor():
-    return render_template("editor.html",
-                           title="My blog")
 
 @app.route("/unlimitedmemory")
 def unlimitedmemory():
     return render_template("articles/unlimitedmemory.html",
                            topics=["How to learn stuff", "Koncentrace", "Základy", "Techniky"],
-                           title="Unlimited Memory")
+                           title="Unlimited Memory",
+                           headings=['1. Koncentrace', '2. Základy', '3. Techniky', '4. Čísla', '5. Mind mapping', '6. Metody života', '7. Sebedisciplína', 'Pro oživení opakujte!', '9. Souhrn'])
 
 @app.route("/artofbanter")
 def artofbanter():
