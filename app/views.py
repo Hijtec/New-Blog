@@ -26,6 +26,7 @@ def index():
     posts=[{"author":"Hijtec", "body":"A first post"}]
     return render_template("index.html",
                            title="My blog",
+                           maintitle="My blog",
                            posts=posts,
                            activenav1="active")
     
