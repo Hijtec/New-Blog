@@ -81,6 +81,5 @@ def advancedprocrastinationhacks():
     return render_template("articles/APH.html",
                            topics=["How to learn stuff", "Procrastination", "Základy", "Techniky", "Productivity"],
                            headings=['Proč inteligentí lidé prokrastinují', 'Návyk Následující Akce', 'Setrvačnost: Fyzika a Produktivita', 'To-Do List: znovu a lépe', 'Dvouminutové Pravidlo', 'Velké Cíle a Malé Kvóty', 'Časové Bloky', 'Metoda Zadek v Křesle', 'Vytvořte si "To-Do List" Rozptylování', 'Metoda (10+2)*5', 'Využijte uzávěrek', 'Zastřelte svého vnitřního Perfekcionistu', 'Jak produktivně prokrastinovat', 'Vizualizace, která vede k prokrastinaci (a která ne)', 'Slovo, které zabíjí prokrastinaci', 'Jak hravě a rychle používat Outsourcing', 'Shrnutí a Závěr'],
-                           title="Advanced Procrastination Hacks",
-                           headings = list(range(1,11)))
+                           title="Advanced Procrastination Hacks")
     
