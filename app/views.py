@@ -74,11 +74,12 @@ def unlimitedmemory():
 def artofbanter():
     return render_template("articles/artofbanter.html",
                            topics=["How to learn stuff", "Banter", "Základy", "Techniky", "Komunikace"],
-                           title="Unlimited Memory")
+                           title="Art of Banter")
     
 @app.route("/advancedprocrastinationhacks")
 def advancedprocrastinationhacks():
     return render_template("articles/APH.html",
                            topics=["How to learn stuff", "Procrastination", "Základy", "Techniky", "Productivity"],
-                           title="Advanced Procrastination Hacks")
+                           title="Advanced Procrastination Hacks"
+                           headings = list(range(1,11)))
     
