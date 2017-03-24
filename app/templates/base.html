@@ -73,7 +73,7 @@
                             <ul class="nav nav-stacked nav-pills hidden-xs hidden-sm" data-spy="affix" data-offset-top="100">
                               {% if headings %}
                                 {% for heading in headings %}
-                                <li><a href="#sec{{loop.index}}">Section {{loop.index}}</a></li>
+                                <li><a href="#sec{{loop.index}}">{{heading}} {{loop.index}}</a></li>
                                 {% endfor %}
                               {% endif %}
                               </ul>

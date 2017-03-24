@@ -8,4 +8,7 @@ while i<len(tags):
     a=(tags[i].text)
     result.append(a.strip())
     i=i+1
-print(result)
+
+file = open("headings.html", encoding='utf-8', mode='w')
+output = str(result)
+file.write(output)
