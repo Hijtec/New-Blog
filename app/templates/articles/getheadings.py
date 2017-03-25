@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 
-edit = BeautifulSoup(open("unlimitedmemory.html", encoding="utf8"));
-tags = edit.find_all("h3");
+edit = BeautifulSoup(open("unlimitedmemory.html", encoding="utf8"), "html.parser");
+tags = edit.find_all("h1");
 i=0
 result=[]
 while i<len(tags):

@@ -65,7 +65,8 @@ def unlimitedmemory():
     return render_template("articles/unlimitedmemory.html",
                            topics=["How to learn stuff", "Koncentrace", "Základy", "Techniky"],
                            title="Unlimited Memory",
-                           headings=['1. Koncentrace', '2. Základy', '3. Techniky', '4. Čísla', '5. Mind mapping', '6. Metody života', '7. Sebedisciplína', 'Pro oživení opakujte!', '9. Souhrn'])
+                           headings=['1. Koncentrace', '2. Základy', '3. Techniky', '4. Čísla', '5. Mind mapping', '6. Metody života', '7. Sebedisciplína', 'Pro oživení opakujte!', '9. Souhrn'],
+                           conclusions=["Mindmap of Unlimited Memory"])
 
 @app.route("/artofbanter")
 def artofbanter():
@@ -78,5 +79,6 @@ def advancedprocrastinationhacks():
     return render_template("articles/APH.html",
                            topics=["How to learn stuff", "Procrastination", "Základy", "Techniky", "Productivity"],
                            headings=['Proč inteligentí lidé prokrastinují', 'Návyk Následující Akce', 'Setrvačnost: Fyzika a Produktivita', 'To-Do List: znovu a lépe', 'Dvouminutové Pravidlo', 'Velké Cíle a Malé Kvóty', 'Časové Bloky', 'Metoda Zadek v Křesle', 'Vytvořte si "To-Do List" Rozptylování', 'Metoda (10+2)*5', 'Využijte uzávěrek', 'Zastřelte svého vnitřního Perfekcionistu', 'Jak produktivně prokrastinovat', 'Vizualizace, která vede k prokrastinaci (a která ne)', 'Slovo, které zabíjí prokrastinaci', 'Jak hravě a rychle používat Outsourcing', 'Shrnutí a Závěr'],
-                           title="Advanced Procrastination Hacks")
+                           title="Advanced Procrastination Hacks",
+                           conclusions=["Mindmap of APH"])
     
