@@ -57,8 +57,8 @@ def contacts():
             return render_template("contacts.html", form = form, title = title, activenav3="active")
         else:
             return render_template("success.html")
-        elif request.method == 'GET':
-            return render_template("contacts.html", form = form, title = title, activenav3="active")
+    elif request.method == 'GET':
+        return render_template("contacts.html", form = form, title = title, activenav3="active")
     
 @app.route("/administration")
 @requires_auth
