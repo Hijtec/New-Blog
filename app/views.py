@@ -1,6 +1,6 @@
 from app import app
 from flask import render_template, flash, redirect, Response, request, Flask
-from .forms import LoginForm
+from forms import ContactForm
 from functools import wraps
 
 def check_auth(username,password):
@@ -43,16 +43,22 @@ def about():
                            title="My blog",
                            activenav2="active")
     
-@app.route("/contacts")
+@app.route("/contacts", methods = ['GET', 'POST'])
 def contacts():
     information=[{"owner":"Hijtec", 
                   "name":"Martin", "lastname":"Černil", 
                   "telephone":"number", "email":"emailadress",
-                  }]
-    return render_template("contacts.html",
-                           information=information,
-                           title="My blog",
-                           activenav3="active")
+                  }];
+    form=ContactForm();
+    title = "Contact me..."
+    if request.method == 'POST':
+        if form.validate() == False:
+            flash("All fields are required.")
+            return render_template("contacts.html", form = form, title = title, activenav3="active")
+        else:
+            return render_template("success.html")
+        elif request.method == 'GET':
+            return render_template("contacts.html", form = form, title = title, activenav3="active")
     
 @app.route("/administration")
 @requires_auth

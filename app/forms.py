@@ -1,7 +1,9 @@
-from flask.ext.wtf import Form
-from wtforms import StringField, BooleanField
-from wtforms.validators import DataRequired
+from flask_wtf import FlaskForm
+from wtforms import TextField, IntegerField, TextAreaField, SubmitField
+from wtforms import validators, ValidationError
 
-class LoginForm(Form):
-    username = StringField("username", validators=[DataRequired()])
-    password = StringField("password", validators=[DataRequired()])
+class ContactForm(FlaskForm):
+    name=TextField("Your name");
+    email=TextField("Email",[validators.Required("Please enter your email adress."), validators.Email("Please enter proper email adress")])
+    message=TextAreaField("Your message");
+    submit=SubmitField("Send")
