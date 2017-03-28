@@ -1,33 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h2 style = "text-align: center;">Contact Form</h2>
-        
-      {% for error in form.name.errors %}
-         <div>{{ error }}</div>
-      {% endfor %}
-      
-      {% for error in form.email.errors %}
-         <div>{{ error }}</div>
-      {% endfor %}
-      
-      <form action = "mailto:kulichusik@seznam.cz" method = "post">
-            {{ form.hidden_tag() }}
-            
-            <div style = font-size:20px; font-weight:bold; margin-left:150px;>
-               {{ form.name.label }}<br>
-               {{ form.name }}
-               <br>
-               
-               {{ form.message.label }}<br>
-               {{ form.message }}
-               
-               {{ form.email.label }}<br>
-               {{ form.email }}
-               <br>
-               {{ form.submit }}
-            </div>
-      </form>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScdrjtMfYrRHiczD4dCbmiRXQd4m-oXlJ5vJq9VKPVT32N-gQ/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 
 {% endblock %}
