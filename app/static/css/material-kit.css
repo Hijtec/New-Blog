@@ -3728,6 +3728,8 @@ h2.title {
   padding-top: 25px;
 }
 
+.uppercase { text-transform: uppercase; }
+
 @media (max-width: 991px) {
   .landing-page .header {
     height: auto;

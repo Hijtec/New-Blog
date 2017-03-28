@@ -75,12 +75,12 @@
                             <ul class="nav nav-stacked hidden-xs hidden-sm" data-spy="affix" data-offset-top="100">
                               {% if headings %}
                                 {% for heading in headings %}
-                                <li><a href="#sec{{loop.index}}"><div style="text-transform:uppercase">{{heading}}</div></a></li>
+                                <li><a href="#sec{{loop.index}}"><div class="uppercase">{{heading}}</div></a></li>
                                 {% endfor %}
                               {% endif %}
                               {% if conclusions %}
                                 {% for conclusion in conclusions %}
-                                <li><a href="#sec-conclusion{{loop.index}}">{{conclusion}}</a></li>
+                                <li><a href="#sec-conclusion{{loop.index}}"><div class="uppercase">{{conclusion}}</div></a></li>
                                 {% endfor %}
                               {% endif %}
                               </ul>
