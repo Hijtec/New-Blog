@@ -1,6 +1,5 @@
 from app import app
 from flask import render_template, flash, redirect, Response, request, Flask
-from .forms import ContactForm
 from functools import wraps
 
 def check_auth(username,password):
