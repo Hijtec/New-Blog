@@ -48,6 +48,8 @@ def contacts():
                   "name":"Martin", "lastname":"Černil", 
                   "telephone":"number", "email":"emailadress",
                   }];
+    return render_template("/contacts.html",
+                           title="Contact")
     
 @app.route("/administration")
 @requires_auth
