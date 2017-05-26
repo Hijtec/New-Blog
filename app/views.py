@@ -87,4 +87,9 @@ def advancedprocrastinationhacks():
                            headings=['Proč inteligentí lidé prokrastinují', 'Návyk Následující Akce', 'Setrvačnost: Fyzika a Produktivita', 'To-Do List: znovu a lépe', 'Dvouminutové Pravidlo', 'Velké Cíle a Malé Kvóty', 'Časové Bloky', 'Metoda Zadek v Křesle', 'Vytvořte si "To-Do List" Rozptylování', 'Metoda (10+2)*5', 'Využijte uzávěrek', 'Zastřelte svého vnitřního Perfekcionistu', 'Jak produktivně prokrastinovat', 'Vizualizace, která vede k prokrastinaci (a která ne)', 'Slovo, které zabíjí prokrastinaci', 'Jak hravě a rychle používat Outsourcing', 'Shrnutí a Závěr'],
                            title="Advanced Procrastination Hacks",
                            conclusions=["Mindmap of APH"])
+
+@app.route("/doporucene_veci")
+def advancedprocrastinationhacks():
+    return render_template("articles/doporucene_veci.html",
+                           title="Doporučené věci")
     
