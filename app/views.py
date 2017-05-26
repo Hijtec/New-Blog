@@ -78,7 +78,7 @@ def advancedprocrastinationhacks():
                            conclusions=["Mindmap of APH"])
 
 @app.route("/doporucene_veci")
-def advancedprocrastinationhacks():
+def doporuceneveci():
     return render_template("articles/doporucene_veci.html",
                            title="Doporučené věci")
     
