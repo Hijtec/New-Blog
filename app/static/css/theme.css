@@ -20,3 +20,8 @@ body {
 .navbar { margin-bottom: 0; }
 
 #editor {overflow:scroll; max-height:300px}
+
+body {
+  margin-top: 50px;
+  padding-bottom: 0px;
+}
