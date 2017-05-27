@@ -20,6 +20,7 @@
     <link href="static/css/bootstrap.min.css" rel="stylesheet" />
     <link href="static/css/material-kit.css" rel="stylesheet"/>
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+    <link href="static/css/theme.css" rel="stylesheet"/>
     
 </head>
 
@@ -58,11 +59,11 @@
             </div>
         </div>
     </nav>
-    <div class="wrapper">
-        {% if title == maintitle %}
+    {% if title == maintitle %}
         <div class="header" style="background-image: url('static/img/bg5.jpeg');">
         </div>
-        {% endif %}
+    {% endif %}
+    <div class="wrapper">
         <div class="main main-raised">
             <div class="section">
                 <div class="container-fluid">
