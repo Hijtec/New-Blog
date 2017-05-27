@@ -59,11 +59,11 @@
             </div>
         </div>
     </nav>
-    {% if title == maintitle %}
-        <div class="header" style="background-image: url('static/img/bg5.jpeg');">
-        </div>
-    {% endif %}
     <div class="wrapper">
+        {% if title == maintitle %}
+            <div class="header" style="background-image: url('static/img/bg5.jpeg');margin-top:-70px">
+            </div>
+        {% endif %}
         <div class="main main-raised">
             <div class="section">
                 <div class="container-fluid">
