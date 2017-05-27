@@ -27,7 +27,7 @@
 								Mnoho odkazů jsem získal z těchto zdrojů.
 							</p>
 							<p>
-								<a class="btn btn-success" href="#">Více</a> <a class="btn" href="#">Action</a>
+								<a class="btn btn-success" data-toggle="modal" data-target="#general">Více</a> <a class="btn" href="#">Action</a>
 							</p>
 						</div>
 					</div>
@@ -42,7 +42,7 @@
 							<p>
 							     Dle mého názoru povinná literatura 21. století.
 							<p>
-								<a class="btn btn-success" href="#">Více</a> <a class="btn" href="#">Action</a>
+								<a class="btn btn-success" data-toggle="modal" data-target="#read">Více</a> <a class="btn" href="#">Action</a>
 							</p>
 						</div>
 					</div>
@@ -117,4 +117,27 @@
 		</div>
 	</div>
 </div>
+
+<!--Start Modal-->
+<div class="modal fade" id="general" tabindex="-1" role="dialog" aria-labelledby="generalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    <i class="material-icons">clear</i>
+                </button>
+                <h4 class="modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <p>Místo pro tabulku
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger btn-simple" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--End Modal-->
 {% endblock %}
