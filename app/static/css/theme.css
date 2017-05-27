@@ -1,12 +1,12 @@
 body {
-  padding-top: 50px;
-  padding-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .theme-dropdown .dropdown-menu {
   position: static;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .theme-showcase > p > .btn {
