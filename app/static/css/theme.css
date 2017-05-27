@@ -17,11 +17,12 @@ body {
   width: auto;
 }
 
-.navbar { margin-bottom: 0; }
+.navbar { margin-bottom: 0 }
 
 #editor {overflow:scroll; max-height:300px}
 
 body {
+  padding-top: 50px;  
   margin-top: 50px;
   padding-bottom: 0px;
 }
