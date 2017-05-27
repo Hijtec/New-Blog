@@ -13,5 +13,9 @@
   width: auto;
 }
 
+body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 
 #editor {overflow:scroll; max-height:300px}
