@@ -156,4 +156,6 @@ $(function() {
     //removing body classes to able click events
     $('body').removeClass();
     $('wrapper').removeClass();
+    $('section').removeClass();
+    $('main').removeClass();
   });
