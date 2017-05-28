@@ -152,7 +152,8 @@ $(function() {
     $('#general').modal();
 
     //appending modal background inside the bigform-content
-    $('.modal-backdrop').appendTo('.modal-form');
+    $('.modal-backdrop').appendTo('.modalform');
     //removing body classes to able click events
     $('body').removeClass();
+    $('wrapper').removeClass();
   });
