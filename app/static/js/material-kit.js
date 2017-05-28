@@ -143,3 +143,16 @@ function debounce(func, wait, immediate) {
 		if (immediate && !timeout) func.apply(context, args);
 	};
 };
+
+
+$(function() {
+
+  //getting click event to show modal
+  $('#open').click(function() {
+    $('#general').modal();
+
+    //appending modal background inside the bigform-content
+    $('.modal-backdrop').appendTo('.modal-form');
+    //removing body classes to able click events
+    $('body').removeClass();
+  });
