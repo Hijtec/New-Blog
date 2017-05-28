@@ -144,7 +144,4 @@ function debounce(func, wait, immediate) {
 	};
 };
 
-
-$(function () {
-  $('[data-toggle="popover"]').popover();
-})
+$("#moreinfo").popover();
