@@ -1,9 +1,4 @@
 body{padding-top:70px}
 
-.modalform {position:relative;}
-
-.modal,
-.modal-backdrop {
-  position: absolute !important;
 }
 
