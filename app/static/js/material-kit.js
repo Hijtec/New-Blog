@@ -145,4 +145,6 @@ function debounce(func, wait, immediate) {
 };
 
 
-$().popover(options)
+$(function () {
+  $('[data-toggle="popover"]').popover();
+})
