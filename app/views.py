@@ -1,6 +1,7 @@
 from app import app
 from flask import render_template, flash, redirect, Response, request, Flask
 from functools import wraps
+from jinja2 import FileSystemLoader
 
 def check_auth(username,password):
     return username == "Hijtec" and password == "alice"
