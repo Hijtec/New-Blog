@@ -129,20 +129,7 @@
                 <h4 class="modal-title">1st title</h4>
             </div>
             <div class="modal-body">
-                <table class="table">
-                   <thead>
-                      <tr>
-                         <th>#</th>
-                         <th>Author</th>
-                         <th>POI</th>
-                         <th>URL</th>
-                         <th>Description</th>
-                      </tr>
-                   </thead>
-                   <tbody>
-                      {% block table %}{% endblock %}  
-                   </tbody>
-                </table>
+                {% block table %}{% endblock %}  
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger btn-simple" data-dismiss="modal">Close</button>

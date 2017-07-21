@@ -1,6 +1,17 @@
 {% extends "doporucene_veci.html" %}
 {% block table %}
-                        <tr>
+<table class="table">
+                   <thead>
+                      <tr>
+                         <th>#</th>
+                         <th>Author</th>
+                         <th>POI</th>
+                         <th>URL</th>
+                         <th>Description</th>
+                      </tr>
+                   </thead>
+                   <tbody>
+                      <tr>
                          <td>1</td>
                          <td>Timothy Ferris</td>
                          <td>A great place to start</td>
@@ -15,4 +26,7 @@
                          <td>
                             Entrepreneur, Visionaire, SpaceX, Tesla
                         </td>
+                   </tbody>
+                        
                         {% endblock %}
+                        
