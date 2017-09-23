@@ -80,6 +80,7 @@ with open(workfile, mode) as text_file:
     if mode == "add":
         mode = r+b;
         text_file = open(workfile, mode, encoding="utf-8")
+        text_file = text_file.decode("utf-8").encode("utf-8")
         text_file.seek(-8,2);
     text_file.write(filledtableend);
 
