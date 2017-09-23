@@ -1,9 +1,0 @@
-
-{% extends "base.html" %}
-{% block content %}
-    <h1>Welcome to {{ title }}!</h1>
-    <p> Hello, welcome to my portfolio and a blog about self-development.</p>
-    {% for posts in posts %}
-    <div><p>{{ posts.author }} published: <b>{{ posts.body }}</b></p></div>
-    {% endfor %}
-{% endblock %}
